@@ -1,0 +1,42 @@
+$ history
+    1  conda env list
+    2  conda activate ineuron_course
+    3  source activate ineuron_course
+    4  mkdir utils
+    5  touch utils/__init__.py
+    6  touch utils/all_utils.py
+    7  touch utils/model.py
+    8  touch and.py
+    9  touch requirements.txt
+   10  conda env list
+   11  conda deactivate
+   12  conda create -n perceptron python==3.7  -y
+   13  conda activate perceptron
+   14  cl
+   15  clr
+   16  pip install -r requirements.txt
+   17  git add.
+   18  git add .
+   19  git add
+   20  git clone https://github.com/Shree-Divya-Ganesh/perceptron.git
+   21  git add
+   22  git add .
+   23  mkdir utils
+   24  mkdir utils
+   25  mkdir utils
+   26  mkdir utils
+   27  mkdir perceptron/utils
+   28  cd perceptron/
+   29  touch utils/__init__.py
+   30  touch utils/model.py
+   31  touch utils/all_utils.py
+   32  touch and.py
+   33  touch requiremnets.txt
+   34  pip install -r requiremnets.txt
+   35  touch or.py
+   36  git add .
+   37  git commit -m "first commit - perceptron"
+   38  git commit -m "first commit"
+   39  git commit -m "first commit"
+   40  git push origin main
+   41  history
