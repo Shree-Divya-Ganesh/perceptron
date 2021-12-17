@@ -8,11 +8,18 @@ from matplotlib.colors import ListedColormap
 plt.style.use("fivethirtyeight")
 
 def prepare_data(df):
+
   x = df.drop(['y'], axis=1)
   y = df['y']
   return x, y
 
 def save_model(model, filename):
+  """this function is used to save the model
+
+  Args:
+      model (.model files): used to sav
+      filename (str): path of the trained model file
+  """
   model_dir = "models"
 
   os.makedirs(model_dir, exist_ok=True) # Directory created only if doesn't exist
